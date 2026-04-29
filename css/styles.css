@@ -188,5 +188,48 @@ h2{
 p{
     font-size:16px;
 }
+.intro{
+    margin-bottom:35px;
+}
+
+.subtitulo-box{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.subtitulo-box h3{
+    font-size:28px;
+    color:#00d9ff;
+    margin-bottom:8px;
+    font-weight:800;
+}
+
+.subtitulo-box span{
+    color:#bdbdbd;
+    font-size:15px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    font-weight:800;
+}
+
+.card{
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:4px;
+    background:linear-gradient(90deg,#7b2cff,#00d9ff);
+}
 
 }
